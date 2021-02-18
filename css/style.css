@@ -50,8 +50,8 @@ body {
 .main-content .icon {
   position: absolute;
   z-index: 99;
-  right: -33%;
-  top: 58%;
+  right: -30%;
+  top: 48%;
   width: 22%;
 }
 
@@ -68,4 +68,160 @@ body {
           transform: translateX(-130px);
   width: 100%;
 }
+
+.section-two {
+  padding: 30px;
+  -webkit-transform: translateY(400px);
+          transform: translateY(400px);
+  background-color: #F9E5E1;
+}
+
+.box {
+  position: relative;
+  width: 350px;
+  height: 316px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
+}
+
+.box .box-title {
+  padding: 40px;
+  font-size: 25px;
+}
+
+.box .box-text {
+  width: 300px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 2;
+  margin: 0 auto;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.box .box-link {
+  text-decoration: none;
+  margin: 25px 35px;
+  color: black;
+  font-size: 19px;
+}
+
+.box .oval {
+  position: absolute;
+  top: 0%;
+  left: -3%;
+  width: 35%;
+  z-index: 1;
+}
+
+.box .shape {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  z-index: 99;
+}
+
+.box .sh {
+  left: 7%;
+  top: 6%;
+  width: 35px;
+}
+
+.box .shsh {
+  top: 5%;
+  left: 7%;
+  width: 35px;
+}
+
+.text .link-two {
+  color: #E2B358;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.text .title-two {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.text .text-sub {
+  width: 460px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.stakan {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+.real {
+  position: relative;
+}
+
+.real .corp {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.real .data {
+  position: absolute;
+  right: 15%;
+  top: 35%;
+  left: 9%;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.real .employ {
+  position: absolute;
+  bottom: 10%;
+  right: 65%;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.real .intel {
+  position: absolute;
+  right: 18%;
+  bottom: 10%;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.link-text .clints {
+  color: #E2B358;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link-text .lawyer {
+  font-size: 45px;
+  width: 800px;
+  text-align: center;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width:980px;){
+  .container{
+    max-width: 980px;
+  }
+}
