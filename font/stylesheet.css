@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Caladea';
+    src: url('Caladea-Bold.woff2') format('woff2'),
+        url('Caladea-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caladea';
+    src: url('Caladea-BoldItalic.woff2') format('woff2'),
+        url('Caladea-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caladea';
+    src: url('Caladea-Italic.woff2') format('woff2'),
+        url('Caladea-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caladea';
+    src: url('Caladea-Regular.woff2') format('woff2'),
+        url('Caladea-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

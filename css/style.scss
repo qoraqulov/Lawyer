@@ -1,0 +1,65 @@
+body{
+    font-family: 'Caladea', swap;
+}
+.collapse {
+    .navbar-nav{
+        padding: 10px;
+    }
+}
+.nav-link{
+    color: black!important;
+    margin: 10px;
+}
+.header-section{
+    height: 800px;
+    background: {
+        image: url('../img/bg.png');
+        repeat: no-repeat;
+        position: right;
+    }
+}
+.main-content{
+    position: relative;
+    .content-link{
+        color: #E2B358;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .content-title{
+        width: 55%;
+        font-size: 60px;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+    .content-text{
+        width: 380px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .btn{
+        padding: 10px 40px;
+        margin-top: 20px;
+    }
+    .icon{
+        position: absolute;
+        z-index: 99;
+        right: -33%;
+        top: 58%;
+        width: 22%;
+
+    }
+    .block{
+        position: absolute;
+        z-index: 99;
+        right: 8%;
+        top: 10%;
+        width: 15%;
+    }
+}
+.main-image{
+    .content-image__photo{
+        transform: translateX(-130px);
+        width: 100%;
+    }
+}
